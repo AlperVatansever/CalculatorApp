@@ -14,7 +14,8 @@
             double sonuc = 0;
             switch(islem)
             {
-                case "+": sonuc = sayi1 + sayi2;
+                case "+": 
+                    sonuc = sayi1 + sayi2;
                     break;
                 case "-":
                     sonuc = sayi1 - sayi2;
@@ -24,6 +25,9 @@
                     break;
                 case "/":
                     sonuc = sayi1 / sayi2;
+                    break;
+                case "%":
+                    sonuc = sayi1 % sayi2;
                     break;
             }
             Console.WriteLine("{0}{1}{2}={3}",sayi1,islem,sayi2,sonuc);
